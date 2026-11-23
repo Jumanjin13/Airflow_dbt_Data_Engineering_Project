@@ -224,12 +224,3 @@ dbt test
 dbt docs generate && dbt docs serve
 ```
 
-## Future Improvements
-
-* **CI/CD Automation:** Add GitHub Actions workflows for SQL linting (`sqlfluff`), `dbt parse`, and slim CI testing on pull requests.
-* **Granular Task Visibility:** Integrate [Astronomer Cosmos](https://github.com/astronomer/astronomer-cosmos) to surface individual dbt models and tests as native Airflow tasks.
-* **BI Integration:** Connect Databricks AI/BI Dashboards, Power BI, or Tableau directly to `walmart.gold` (`fact_orders` and `dim_*` views).
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
