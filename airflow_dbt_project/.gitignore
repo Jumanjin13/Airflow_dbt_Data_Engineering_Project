@@ -1,0 +1,33 @@
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+!**/.env.example
+profiles.yml
+!profiles.yml.example
+
+# Airflow local runtime files
+/config/airflow.cfg
+/logs/
+
+# dbt-generated files and local profile settings
+/walmart_dbt_project/target/
+/walmart_dbt_project/dbt_packages/
+/walmart_dbt_project/logs/
+/walmart_dbt_project/.user.yml
+
+# Python environments, caches, and build output
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+/build/
+/dist/
+*.egg-info/
+
+# Local machine files
+.DS_Store
+Thumbs.db
